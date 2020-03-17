@@ -1,0 +1,87 @@
+@import 'variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #5a7b9d;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: $white;
+};
+
+header {
+  height: 90px;
+  background-color: #263548;
+}
+
+.logo {
+  float: left;
+  padding: 8px 16px;
+
+  &-box {
+    width: 96px;
+    height: 56px;
+    background-color: $blue;
+  }
+}
+
+.icon {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  right: 15px;
+}
+
+.select-icon {
+  display: flex;
+  position: relative;
+  right: 25px;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+
+.nav-link {
+  position: relative;
+  bottom: 20px;
+  z-index: 1;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 40px 0 0 54px;
+}
+
+nav a {
+  opacity: 0.6;
+}
+
+nav a:hover {
+  opacity: 0.4;
+  color: #ffffff;
+}
